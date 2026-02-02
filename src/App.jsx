@@ -8,7 +8,7 @@ function App() {
   const [todo, setTodo] = useState("");
   const [todos, setTodos] = useState([]);
   const [showFinished, setShowFinished] = useState(true);
-  const API_URL = "http://127.0.0.1:5000/todos";
+  const API_URL = "https://react-todo-backend-final.onrender.com/todos";
 
   // Load todos from backend on mount
   useEffect(() => {
